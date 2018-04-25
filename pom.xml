@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>kevin</groupId>
+    <artifactId>stardog-play-area</artifactId>
+    <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.complexible.stardog</groupId>
+            <artifactId>stardog-api</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+
+        <!-- This dependency doesn't work. Giving up. -->
+        <dependency>
+            <groupId>com.complexible.stardog</groupId>
+            <artifactId>stardog-rdf4j</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+    </dependencies>
+    
+    <repositories>
+        <repository>
+            <id>stardog-public</id>
+            <url>http://maven.stardog.com</url>
+        </repository>
+    </repositories>
+</project>
